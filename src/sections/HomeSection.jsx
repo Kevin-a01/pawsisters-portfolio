@@ -5,7 +5,7 @@ export default function HomeSection() {
         <div className="flex justify-center items-center ">
           <img
             className="mt-40 w-35 rounded-full "
-            src="public\pawsisterslogo.png"
+            src={`${import.meta.env.BASE_URL}pawsisterslogo.png`}
             alt=""
           />
         </div>

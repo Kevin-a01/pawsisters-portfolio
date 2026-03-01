@@ -14,7 +14,7 @@ export default function AboutSection() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <img
                 className="rounded-2xl mx-auto"
-                src="/Visitkort_2024.jpg"
+                src={`${import.meta.env.BASE_URL}Visitkort_2024.jpg`}
                 alt=""
               />
               <div className="">

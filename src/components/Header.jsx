@@ -13,7 +13,7 @@ export default function Header() {
           <a href="/">
             <img
               className="rounded-full w-20"
-              src="/pawsisterslogo.png"
+              src={`${import.meta.env.BASE_URL}pawsisterslogo.png`}
               alt=""
             />
           </a>

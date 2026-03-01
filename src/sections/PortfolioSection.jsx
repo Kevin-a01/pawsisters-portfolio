@@ -7,7 +7,7 @@ export default function PortfolioSection() {
       id: 1,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "/IMG_6978_otters.jpg",
+      image: `${import.meta.env.BASE_URL}IMG_6978_otters.jpg`,
       category: "Stickers",
     },
 
@@ -15,7 +15,7 @@ export default function PortfolioSection() {
       id: 2,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "/image.jpg",
+      image: `${import.meta.env.BASE_URL}image.jpg`,
       category: "Crochet",
     },
 
@@ -23,7 +23,7 @@ export default function PortfolioSection() {
       id: 3,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "/image_bee.jpg",
+      image: `${import.meta.env.BASE_URL}image_bee.jpg`,
       category: "Stickers",
     },
 
@@ -31,7 +31,7 @@ export default function PortfolioSection() {
       id: 4,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "/image_stickers.jpg",
+      image: `${import.meta.env.BASE_URL}image_stickers.jpg`,
       category: "Stickers",
     },
 
@@ -39,7 +39,7 @@ export default function PortfolioSection() {
       id: 5,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "/image_dino.jpg",
+      image: `${import.meta.env.BASE_URL}image_dino.jpg`,
       category: "Prints",
     },
 
@@ -47,7 +47,7 @@ export default function PortfolioSection() {
       id: 6,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "/image_frog.jpg",
+      image: `${import.meta.env.BASE_URL}image_frog.jpg`,
       category: "Keychains",
     },
   ];
