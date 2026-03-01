@@ -85,7 +85,7 @@ export default function Header() {
             </button>
           </li>
 
-          <li>
+          <li className="hidden">
             <button
               onClick={() => {
                 navigate("/gallery");

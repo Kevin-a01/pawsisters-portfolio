@@ -14,7 +14,7 @@ export default function AboutSection() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <img
                 className="rounded-2xl mx-auto"
-                src="https://placehold.co/600x400"
+                src="/Visitkort_2024.jpg"
                 alt=""
               />
               <div className="">
@@ -22,10 +22,10 @@ export default function AboutSection() {
                   Hi, We are Pawsisters!
                 </h1>
                 <p className="text-lg text-center">
-                  [Replace this with your story! Talk about how you got started
-                  with art, what inspires you, and what makes your work unique.
-                  Mention your style, favorite subjects, and your journey as an
-                  artist alley vendor.]
+                  We specialize in handmade croched crafts but we also have lots
+                  of stickers and other handmade crafts. Our main theme is
+                  cutesy but we also adapt other themes such as Sci-fi, video
+                  games and anime depending on the con we are attending.
                 </p>
               </div>
             </div>
@@ -37,10 +37,7 @@ export default function AboutSection() {
                 <Palette size={38} />
               </div>
               <h2 className="mt-3 text-xl mb-3">Unique Style</h2>
-              <h3 className="text-lg">
-                [Describe your art style - cute, kawaii, minimalist, colorful,
-                etc.]
-              </h3>
+              <h3 className="text-lg">Cute, Kawaii & Colorful.</h3>
             </div>
 
             <div className="text-center p-5 rounded-2xl bg-purple-100 flex items-center justify-center flex-col ">
@@ -48,10 +45,7 @@ export default function AboutSection() {
                 <Heart size={38} />
               </div>
               <h2 className="mt-3 text-xl mb-3">Made with Love</h2>
-              <h3 className="text-lg">
-                [Describe your art style - cute, kawaii, minimalist, colorful,
-                etc.]
-              </h3>
+              <h3 className="text-lg">We donate a portion to charity.</h3>
             </div>
 
             <div className="text-center p-5 rounded-2xl bg-blue-100 flex items-center justify-center flex-col">
@@ -59,10 +53,7 @@ export default function AboutSection() {
                 <Sparkles size={38} />
               </div>
               <h2 className="mt-3 text-xl mb-3">Always Creating</h2>
-              <h3 className="text-lg">
-                [Describe your art style - cute, kawaii, minimalist, colorful,
-                etc.]
-              </h3>
+              <h3 className="text-lg">Popular and new items.</h3>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ export default function PortfolioSection() {
       id: 1,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "https://placehold.co/600x400",
+      image: "/IMG_6978_otters.jpg",
       category: "Stickers",
     },
 
@@ -15,7 +15,7 @@ export default function PortfolioSection() {
       id: 2,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "https://placehold.co/600x400",
+      image: "/image.jpg",
       category: "Crochet",
     },
 
@@ -23,7 +23,7 @@ export default function PortfolioSection() {
       id: 3,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "https://placehold.co/600x400",
+      image: "/image_bee.jpg",
       category: "Stickers",
     },
 
@@ -31,7 +31,7 @@ export default function PortfolioSection() {
       id: 4,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "https://placehold.co/600x400",
+      image: "/image_stickers.jpg",
       category: "Stickers",
     },
 
@@ -39,7 +39,7 @@ export default function PortfolioSection() {
       id: 5,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "https://placehold.co/600x400",
+      image: "/image_dino.jpg",
       category: "Prints",
     },
 
@@ -47,7 +47,7 @@ export default function PortfolioSection() {
       id: 6,
       title: "Lorem ipsum dolor",
       description: "Lorem ipsum dolor",
-      image: "https://placehold.co/600x400",
+      image: "/image_frog.jpg",
       category: "Keychains",
     },
   ];
@@ -66,9 +66,9 @@ export default function PortfolioSection() {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-64 object-cover"
+                className="w-full h-100 object-cover"
               />
-              <div className="p-4">
+              <div className="p-4 hidden">
                 <div className="">
                   <div className="text-pink-300 mb-1 text-xl">
                     {item.category}
@@ -82,7 +82,7 @@ export default function PortfolioSection() {
           ))}
         </div>
       </div>
-      <div>
+      <div className="hidden">
         <h2 className="text-center text-lg mt-10">
           View more pictures{" "}
           <button
